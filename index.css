@@ -1,25 +1,29 @@
-body{
-    margin: 0;
-    padding: 0;   
+#re {
+  color: red;
 }
 
-h1{
-    background-image: linear-gradient(red, yellow, orange);
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.secret{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1 {
+  background-image: linear-gradient(red, yellow, orange);
 }
 
-input::spelling-error{
-    text-decoration: wavy purple underline ;
+.secret {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-img:hover{
-    box-shadow: 0px 8px 16px 16px rgba(0, 230, 230, 0.8);
-    width: 500px;
-    transition: 2s ease-out ;
+input::spelling-error {
+  -webkit-text-decoration: wavy purple underline;
+          text-decoration: wavy purple underline;
 }
 
+img:hover {
+  box-shadow: 0px 8px 16px 16px rgba(0, 230, 230, 0.8);
+  width: 500px;
+  transition: 2s ease-out;
+}/*# sourceMappingURL=index.css.map */
