@@ -2,13 +2,14 @@
   color: red;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
 h1 {
   background-image: linear-gradient(red, yellow, orange);
+  padding: 15px 0px;
 }
 
 .secret {
