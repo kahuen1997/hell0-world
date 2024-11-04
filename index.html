@@ -9,7 +9,21 @@
 <body>
     <h1>Your Favorite Game</h1>
     <div>
-        <input type="text" id="en" placeholder="please enter" required>
+    <div>
+        <label for="">Name:</label><br>
+        <input type="text" id="en" placeholder="please enter"  required>
+    </div>
+    <br>
+    <div>
+        <label for="">How many people:</label><br>
+        <input type="number" id="ene" max="30" min="2" step="2"  required>
+    </div>
+    <br>
+    <div>
+        <label for="">Booking Date:</label><br>
+        <input type="date" name="" id="bookdate" value="2018-08-22" min="2017-01-01" max="2020-01-01" required>
+    </div>
+    <br>
         <button type="button" id="nn">Submit</button>
         <p id="re"></p>
     </div>
