@@ -2,13 +2,13 @@
   color: red;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  background-image: linear-gradient(red, yellow, orange);
+  background-image: linear-gradient(blue, cyan);
 }
 
 .secret {
