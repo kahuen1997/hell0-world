@@ -27,9 +27,45 @@ input{
     width: 200px;
 }
 
-img:hover{
-    box-shadow: 0px 8px 16px 16px rgba(0, 230, 230, 0.8);
+.dd{
+    border: 1px solid red;
+  }
+  
+  .dd:hover {
+    -webkit-box-shadow: 0px 8px 16px 16px rgba(0, 230, 230, 0.8);
+            box-shadow: 0px 8px 16px 16px rgba(0, 230, 230, 0.8);
     width: 500px;
-    transition: 2s ease-out ;
+    -webkit-transition: 2s ease-out;
+    transition: 2s ease-out;
+  }
+
+.section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: top;
+    
+  
 }
 
+.section1_body1{
+    flex: 20%;
+    padding: 20px;
+    border: 1px solid red;
+   
+}
+
+.section1_body2{
+    flex: 20%;
+    padding: 20px;
+    border: 1px solid orange;
+}
+.section1_body3{
+    flex: 60%;
+    padding: 20px;
+    border: 1px solid blue;
+}
+.op{
+    display: block;
+    margin: auto;
+}
