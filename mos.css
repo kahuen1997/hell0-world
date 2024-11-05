@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "roboto";
+    src: url(Playwrite_GB_S/PlaywriteGBS-Italic-VariableFont_wght.ttf) format("truetype");
+
+}
+
+
+
+.title{
+    font-family: 'roboto';
+    font-weight: 900;
+}
+
+.moshkbutton{
+    padding: 15px 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.moshkbutton:hover{
+    background-color: #ccc;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+/* .header{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 536px;
+} */
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
