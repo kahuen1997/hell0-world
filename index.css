@@ -2,31 +2,24 @@
   color: red;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(yellow), to(orange));
-  background-image: linear-gradient(red, yellow, orange);
+  background-color: #ccc;
+  padding: 10px 5px;
 }
 
 .secret {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 input::spelling-error {
-  -webkit-text-decoration: wavy purple underline;
-          text-decoration: wavy purple underline;
+  text-decoration: wavy purple underline;
 }
 
 input {
@@ -46,46 +39,43 @@ input {
 }
 
 .section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: top;
-      -ms-flex-align: top;
-          align-items: top;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: top;
 }
 
 .section1_body1 {
-  -webkit-box-flex: 20%;
-      -ms-flex: 20%;
-          flex: 20%;
+  flex: 20%;
   padding: 20px;
 }
 
 .section1_body2 {
-  -webkit-box-flex: 20%;
-      -ms-flex: 20%;
-          flex: 20%;
+  flex: 20%;
   padding: 20px;
-  border: 1px solid orange;
 }
 
 .section1_body3 {
-  -webkit-box-flex: 60%;
-      -ms-flex: 60%;
-          flex: 60%;
+  flex: 60%;
   padding: 20px;
-  border: 1px solid blue;
 }
 
 .op {
   display: block;
   margin: auto;
+  animation: rotate 3s infinite linear;
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -4,13 +4,14 @@ $danger : red;
     color: $danger;
 }
 
-body{
+*{
     margin: 0;
     padding: 0;   
 }
 
 h1{
-    background-image: linear-gradient(red, yellow, orange);
+    background-color: #ccc;
+    padding: 10px 5px;
 }
 
 .secret{
@@ -58,14 +59,30 @@ input{
 .section1_body2{
     flex: 20%;
     padding: 20px;
-    border: 1px solid orange;
+    
 }
 .section1_body3{
     flex: 60%;
     padding: 20px;
-    border: 1px solid blue;
+   
 }
+
 .op{
     display: block;
     margin: auto;
+    animation: rotate 3s infinite linear;
+    
 }
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+      }
+  }
