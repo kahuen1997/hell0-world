@@ -29,11 +29,8 @@ jobs:
   build_window:
     # The type of runner that the job will run on
     runs-on: windows-latest
-
-
-    if: ${{sucess()}}
-    needs: [build_linux]
-    
+    if: ${{ success() }} 
+    needs: [build_linux] 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
