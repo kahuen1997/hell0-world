@@ -24,7 +24,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          date
+          date1
   build_2:
     # The type of runner that the job will run on
     runs-on: windows-latest
